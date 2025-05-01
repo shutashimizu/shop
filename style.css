@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'BIZ UDPゴシック', sans-serif;
+    background-color: #f4f4f9;  /* 背景色変更 */
+    text-align: center;         /* 中央寄せは維持 */
+    color: #333;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1a4d2e; /* 濃いグリーンで落ち着いた感じに */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    background-color: #4caf50; /* 鮮やかな緑 */
+    color: white;
+    padding: 8px 0;
+    margin: 20px 0;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #8fbc8f; /* 少し太めに */
+    margin: 20px auto;
+    width: 80%;
+}
+
+.error-msg {
+    color: red;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+table {
+    border: 1px solid #5e696c;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* テーブル横幅そのまま */
+    border-collapse: collapse;
+    background-color: #ffffff; /* テーブル背景白にして見やすく */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 軽い影を追加 */
+}
+
+th {
+    border: 1px solid #5e696c;
+    background-color: #4caf50;
+    color: white;
+    height: 36px;
+}
+
+td {
+    border: 1px solid #5e696c;
+    text-align: center;
+    height: 28px;
+    background-color: #f9f9f9;
+}
+
+/* リストごとの背景色だけ変更 */
+.select-list {
+    background-color: #f0e68c; /* 薄い黄色系 */
+}
+
+.cart-list {
+    background-color: #afeeee; /* 薄い水色系 */
+}
+
+.pay-list {
+    background-color: #ffe4e1; /* 薄いピンク系 */
+}
