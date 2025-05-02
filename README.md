@@ -1,1 +1,1 @@
-使用技術
+使用技術：Java、HTML、CSS、Tomcat
